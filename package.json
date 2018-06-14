@@ -1,0 +1,33 @@
+{
+  "name": "@elastic/eslint-plugin-react-intl",
+  "version": "1.1.2",
+  "description": "react-intl specific linting rules for ESLint",
+  "main": "index.js",
+  "license": "MIT",
+  "author": [
+    "Rami Valta <rami.valta@soikea.com>",
+    "Rory Hunter <rory@elastic.co>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elastic/eslint-plugin-react-intl.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "intl-messageformat-parser": "^1.4.0",
+    "unicoderegexp": "^0.4.1"
+  }
+}
